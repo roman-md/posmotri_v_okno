@@ -19,7 +19,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  /*background-color: paleturquoise;*/
 }
 
 h1,
@@ -44,7 +43,6 @@ ol {
 .content {
   display: flex;
   inline-size: 1140px;
-  /*block-size: 534px;*/
   flex-direction: row;
   gap: 30px;
 }
@@ -201,12 +199,8 @@ ol {
   padding: 1px;
 }
 
-.search-form__checkbox[type='checkbox']:focus-visible + .search-form__pseudo-checkbox {
-
-}
-
 .content__details {
-  flex-grow: 1;
+  inline-size: 399px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -266,7 +260,7 @@ ol {
   outline-offset: 2px;
 }
 
-.content__card-link_current .content__video-card{
+.content__card-link_current .content__video-card {
   background-color: #545050;
 }
 
@@ -306,9 +300,6 @@ ol {
 .more-button {
   inline-size: 100%;
 }
-
-
-
 
 .visually-hidden {
   position: absolute;
